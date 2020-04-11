@@ -11,5 +11,10 @@ namespace MVCFirstApp.Models
 
         public string Password { get; set; }
 
+        public UserModel(string username, string password)
+        {
+            Username = username;
+            Password = password;
+        }
     }
 }
